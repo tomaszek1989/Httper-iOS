@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4F51F2CAB45DDC76A9F169B1 /* Pods_Httper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5637677047F4C4B6CA981D18 /* Pods_Httper.framework */; };
+		51FFA5951EED7C2400498248 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51FFA5971EED7C2400498248 /* Localizable.strings */; };
+		51FFA59A1EED7C5400498248 /* AutoGenStrings.py in Resources */ = {isa = PBXBuildFile; fileRef = 51FFA5991EED7C5400498248 /* AutoGenStrings.py */; };
 		E4007EB91DFEE7B7002A87FA /* RequestBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4007EB81DFEE7B7002A87FA /* RequestBodyViewController.swift */; };
 		E40B257E1DF44BD20039CA8D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40B257D1DF44BD20039CA8D /* MainViewController.swift */; };
 		E41642D31DF970CE00F0339E /* CommonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41642D21DF970CE00F0339E /* CommonTool.swift */; };
@@ -17,7 +19,6 @@
 		E4305A471E34F65000010B52 /* DaoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305A461E34F65000010B52 /* DaoManager.swift */; };
 		E4305A491E34F8E100010B52 /* DaoTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305A481E34F8E100010B52 /* DaoTemplate.swift */; };
 		E431C4A91DF7179D006BB2D6 /* RequestMethodsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431C4A81DF7179D006BB2D6 /* RequestMethodsTableViewController.swift */; };
-		E431C4AC1DF72172006BB2D6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E431C4AB1DF72172006BB2D6 /* Localizable.strings */; };
 		E447287B1DF7CE80007D2C8B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447287A1DF7CE80007D2C8B /* ResultViewController.swift */; };
 		E45D3E861E21296F0002E1F2 /* InternetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D3E851E21296F0002E1F2 /* InternetResponse.swift */; };
 		E46077611E126948002DE839 /* PingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46077601E126948002DE839 /* PingViewController.swift */; };
@@ -88,6 +89,11 @@
 /* Begin PBXFileReference section */
 		4787A86C21239A8AA4ADE88E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4F2FE7831EA2CA12EBD27AA5 /* Pods-Httper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Httper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Httper/Pods-Httper.debug.xcconfig"; sourceTree = "<group>"; };
+		51FFA5931EED7C0C00498248 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		51FFA5941EED7C0D00498248 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		51FFA5961EED7C2400498248 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		51FFA5981EED7C2800498248 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		51FFA5991EED7C5400498248 /* AutoGenStrings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = AutoGenStrings.py; sourceTree = "<group>"; };
 		5637677047F4C4B6CA981D18 /* Pods_Httper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Httper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EBC322CA510BFBBFF4AB72E /* Pods-Httper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Httper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Httper/Pods-Httper.release.xcconfig"; sourceTree = "<group>"; };
 		E4007EB81DFEE7B7002A87FA /* RequestBodyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBodyViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +106,6 @@
 		E4305A461E34F65000010B52 /* DaoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoManager.swift; sourceTree = "<group>"; };
 		E4305A481E34F8E100010B52 /* DaoTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoTemplate.swift; sourceTree = "<group>"; };
 		E431C4A81DF7179D006BB2D6 /* RequestMethodsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestMethodsTableViewController.swift; sourceTree = "<group>"; };
-		E431C4AB1DF72172006BB2D6 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		E447287A1DF7CE80007D2C8B /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		E45BB55D1E5410C90095F959 /* Httper_1.4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Httper_1.4.xcdatamodel; sourceTree = "<group>"; };
 		E45D3E851E21296F0002E1F2 /* InternetResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetResponse.swift; sourceTree = "<group>"; };
@@ -225,11 +230,12 @@
 			isa = PBXGroup;
 			children = (
 				E41642D11DF96F6800F0339E /* Httper-Bridging-Header.h */,
-				E431C4AB1DF72172006BB2D6 /* Localizable.strings */,
+				51FFA5971EED7C2400498248 /* Localizable.strings */,
 				E4DE76921E1D2AB0002A8385 /* login-bg-iPad.jpg */,
 				E4DE76951E1D3DAE002A8385 /* login-bg.jpg */,
 				E4DE769A1E1E9FE2002A8385 /* register-bg-iPad.jpg */,
 				E4DE76941E1D3DAE002A8385 /* register-bg.jpg */,
+				51FFA5991EED7C5400498248 /* AutoGenStrings.py */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -396,6 +402,7 @@
 				E48D41521D444F3F0028B84F /* Resources */,
 				5FBDFA7A01C00541D71051CF /* [CP] Embed Pods Frameworks */,
 				21CA65E0E182E6B09AB474C8 /* [CP] Copy Pods Resources */,
+				51FFA59B1EED7C8300498248 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -476,6 +483,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = E48D414B1D444F3F0028B84F;
 			productRefGroup = E48D41551D444F3F0028B84F /* Products */;
@@ -498,11 +506,12 @@
 				E48D41651D444F3F0028B84F /* LaunchScreen.storyboard in Resources */,
 				E4DE76971E1D3DAE002A8385 /* login-bg.jpg in Resources */,
 				E4DE76961E1D3DAE002A8385 /* register-bg.jpg in Resources */,
-				E431C4AC1DF72172006BB2D6 /* Localizable.strings in Resources */,
+				51FFA5951EED7C2400498248 /* Localizable.strings in Resources */,
 				E4DE769B1E1E9FE2002A8385 /* register-bg-iPad.jpg in Resources */,
 				E4F95CD81E1572FD005A0004 /* whois.css in Resources */,
 				E48D41621D444F3F0028B84F /* Assets.xcassets in Resources */,
 				E48D415D1D444F3F0028B84F /* Main.storyboard in Resources */,
+				51FFA59A1EED7C5400498248 /* AutoGenStrings.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +546,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Httper/Pods-Httper-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		51FFA59B1EED7C8300498248 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python ${SRCROOT}/${TARGET_NAME}/AutoGenStrings.py ${SRCROOT}/${TARGET_NAME}";
 		};
 		5FBDFA7A01C00541D71051CF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -657,10 +679,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		51FFA5971EED7C2400498248 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51FFA5961EED7C2400498248 /* en */,
+				51FFA5981EED7C2800498248 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		E48D415B1D444F3F0028B84F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E48D415C1D444F3F0028B84F /* Base */,
+				51FFA5941EED7C0D00498248 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -669,6 +701,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E48D41641D444F3F0028B84F /* Base */,
+				51FFA5931EED7C0C00498248 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -680,6 +713,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -728,6 +762,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
